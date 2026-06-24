@@ -1,0 +1,13 @@
+Classes and objects
+
+Class has data/ attributes-> like metadata 
+and
+function/methods ->which we manually ask the object to do the task
+the constructor always runs, the method runs only if it is called
+
+constructor is used so that when the user get's automatically connected to useful features, eg. connecting to a db in backend
+
+
+eg. type(list) -> class<list> means it a class of list written by python internally
+using list.clear() where clear is a certain method made by developers used to erase all entries in the list
+that's why python is an OBJECT ORIENTED PROGRAM
