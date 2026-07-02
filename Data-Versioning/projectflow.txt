@@ -1,0 +1,2 @@
+1. Create git and clone it 
+2. Create code.py and add code to it(it will save a data file in it)

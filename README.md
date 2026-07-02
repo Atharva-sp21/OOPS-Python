@@ -1,2 +1,2 @@
 # OOPS-Python
-This repo contains my progress on python OOPS
+This repo contains my progress on MLOps

@@ -11,3 +11,12 @@ constructor is used so that when the user get's automatically connected to usefu
 eg. type(list) -> class<list> means it a class of list written by python internally
 using list.clear() where clear is a certain method made by developers used to erase all entries in the list
 that's why python is an OBJECT ORIENTED PROGRAM
+
+
+Understanding self -> whatever object is made from a class is basically self, they have the same address
+Think of it as a default argument for our methods
+
+When you develop your class, you wouldn't want users to have access of all methods, so some 
+methods should be kept secretive. This additonal layer of security is called Encapsulation
+can write it as self.__name (gets stored as object._(classname)__(attributename), so if anybody knows this technique they can still access it,
+python doesn't 100% protect
