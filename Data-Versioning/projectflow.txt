@@ -1,2 +1,17 @@
 1. Create git and clone it 
 2. Create code.py and add code to it(it will save a data file in it)
+3. #pip install DVC
+4. Now we do dvc init
+5. "dvc remote add -d myremote S3" -> sets myremote as our default remote
+6. "dvc add data/" -> output alr tracked by SCM 
+7. To stop tracking from Git:
+            git rm -r --cached 'data'
+            git commit -m "stop tracking data"
+8. dvc add data/
+9. To track the changes with git, run:
+
+        git add .gitignore data.dvc
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
